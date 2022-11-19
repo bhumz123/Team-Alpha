@@ -1,0 +1,64 @@
+section {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.left {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+.left h2 {
+  font-size: 3rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+}
+.left p {
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  color: gray;
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+.buttons {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+}
+.buttons a {
+  color: var(--clr-lightest-purple);
+  font-family: sans-serif;
+  padding: 1.3em 3em;
+  text-decoration: none;
+  background-color: var(--clr-dark-purple);
+  border-radius: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+.buttons a:nth-child(1):hover {
+  background-color: rgba(150, 103, 224, 0.8);
+}
+.buttons a:nth-child(2):hover {
+  background-color: rgba(150, 103, 224, 0.5);
+}
+.buttons a:nth-child(2) {
+  color: var(--clr-dark-purple);
+  margin-left: 1rem;
+  background-color: var(--clr-lightest-purple);
+}
+.right {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+.right img {
+  width: 300px;
+  border-radius: 5rem;
+}

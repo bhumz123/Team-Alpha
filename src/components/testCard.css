@@ -1,0 +1,25 @@
+.test-card {
+  width: 200px;
+  height: 200px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid var(--clr-dark-purple);
+  margin: 1rem;
+}
+.test-card a {
+  margin-top: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  background-color: var(--clr-dark-purple);
+  border-radius: 2rem;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+.test-card a:hover {
+  background-color: var(--clr-light-purple);
+}

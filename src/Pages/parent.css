@@ -1,0 +1,48 @@
+.graph-container {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h3:nth-child(4) {
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--clr-dark-purple);
+  margin-top: 1rem;
+}
+hr {
+  color: var(--clr-dark-purple);
+}
+.dashboard-split-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  border: 1px solid var(--clr-dark-purple);
+  border-radius: 2rem;
+}
+.dashboard-split-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  border: 1px solid var(--clr-dark-purple);
+  margin-left: 1rem;
+  border-radius: 2rem;
+}
+.dashboard-split-right a {
+  text-decoration: none;
+  padding: 1rem;
+  background-color: var(--clr-dark-purple);
+  border-radius: 2rem;
+  color: white;
+  font-weight: 400;
+  transition: all 0.2s ease-in-out;
+}
+.dashboard-split-right a:hover {
+  background-color: var(--clr-light-purple);
+}

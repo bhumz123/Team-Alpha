@@ -1,0 +1,16 @@
+.sidebar {
+  width: 20vw;
+  height: 95vh;
+  position: sticky;
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-lightest-purple);
+  padding: 1rem;
+  overflow-y: scroll;
+  float: left;
+}
+
+.sidebar h2 {
+  font-weight: 500;
+}

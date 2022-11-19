@@ -1,0 +1,35 @@
+:root {
+  --clr-dark-purple: #9667e0;
+  --clr-light-purple: #d4bbfc;
+  --clr-lightest-purple: #ebd9fc;
+}
+nav {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: var(--clr-dark-purple);
+  font-family: sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+nav img {
+  width: 50px;
+  border-radius: 50%;
+}
+nav h1 {
+  color: white;
+}
+nav a {
+  color: var(--clr-dark-purple);
+  text-decoration: none;
+  padding: 0.8em 1em;
+  background-color: white;
+  border-radius: 0.5em;
+}
+nav a:hover {
+  background-color: lightgrey;
+}

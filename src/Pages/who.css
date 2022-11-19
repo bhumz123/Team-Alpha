@@ -1,0 +1,31 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+.starting-cards {
+  width: 350px;
+  border: 1px solid var(--clr-light-purple);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 400px;
+  border-radius: 2rem;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.3s ease-in-out;
+}
+.starting-cards:hover {
+  background-color: var(--clr-lightest-purple);
+  cursor: pointer;
+}
+.starting-cards img {
+  width: 200px;
+  border-radius: 50%;
+}
+.links {
+  text-decoration: none;
+  color: black;
+}

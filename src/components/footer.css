@@ -1,0 +1,21 @@
+footer {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--clr-dark-purple);
+  position: static;
+  bottom: 0;
+  padding: 1rem;
+  color: white;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+footer ul li {
+  padding: 0.5rem;
+}
