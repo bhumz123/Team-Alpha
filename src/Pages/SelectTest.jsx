@@ -7,7 +7,7 @@ const SelectTest = () => {
   return (
     <div><NavBar text="Tests" />
     <div className="tests-container">
-        <TestCard testName="Autism" />
+        <TestCard testName="ADHD and Autism" />
         <TestCard testName="Dyslexia" />
         <TestCard testName="Dysphoria" />
         <TestCard testName="" />
